@@ -3,7 +3,7 @@ import { getAuth } from "firebase/auth";
 import { getFirestore, enableIndexedDbPersistence } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCHWXmhql3iZWIluOCDPj5BiXPng3uRyK8",
+  apiKey: "*****************************",
   authDomain: "echo-room-bf3f6.firebaseapp.com",
   projectId: "echo-room-bf3f6",
   storageBucket: "echo-room-bf3f6.firebasestorage.app",
