@@ -27,3 +27,7 @@ dist-ssr
 .env
 .env.local
 .env.*.local
+
+# ssh key related files
+.sachin
+.sachin.pub
