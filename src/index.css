@@ -2,3 +2,32 @@
 /* @tailwind base;
 @tailwind components;
 @tailwind utilities; */
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background: #666;
+  border-radius: 12px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
+
+/* Fade-in Animation (Light) */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out forwards;
+}
