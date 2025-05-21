@@ -31,3 +31,6 @@ dist-ssr
 # ssh key related files
 .sachin
 .sachin.pub
+
+ # deployer
+deploy.sh
